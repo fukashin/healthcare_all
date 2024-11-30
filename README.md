@@ -18,3 +18,7 @@
  ![docker2](https://github.com/user-attachments/assets/f28eb80b-434b-4c22-ade7-35ca0645fdcc)
 
 portの3000 や8000をクリックすると実行中の画面にアクセスできる。
+
+
+Djangoは画面を更新すると更新が反映される
+reactはdockerの再起動を行ったら反映されたため時間がかかった→ホットリロードの方法はあるみたい
