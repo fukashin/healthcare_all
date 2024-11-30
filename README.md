@@ -14,6 +14,8 @@
 
  ### ③docker-compose.ymlがあるディレクトリでターミナルからdocker-compose up -dで実行
 
+ ### ④モジュールのインストールがある場合はvolumeを削除かも（未確認）　docker-compose down --volumes
+
 このような画面になればOK
  ![docker2](https://github.com/user-attachments/assets/f28eb80b-434b-4c22-ade7-35ca0645fdcc)
 

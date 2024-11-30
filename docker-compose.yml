@@ -48,8 +48,6 @@ services:
       - "3000:3000"
     volumes:
       - ./healthcare_front:/app
-    environment:
-      - CHOKIDAR_USEPOLLING=true  # ホットリロード対応
 
 volumes:
   postgres_data:  # ここでボリュームを定義
