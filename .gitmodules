@@ -1,0 +1,6 @@
+[submodule "healthcare_API"]
+	path = healthcare_API
+	url = https://github.com/fukashin/healthcare_API-fukashin.git
+[submodule "healthcare_front"]
+	path = healthcare_front
+	url = https://github.com/fukashin/healthcare_front-fukashin.git
