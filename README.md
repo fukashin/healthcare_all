@@ -16,6 +16,13 @@
 
  ### ④モジュールのインストールがある場合はvolumeを削除かも（未確認）　docker-compose down --volumes
 
+ front側にnode_modulesが入っていないとエラーになることがある。
+ 下のコマンドを打つってnode_modulesを入れる
+ cd healthcare_front 
+ npm install 
+
+データベースがつかないと、Djangoがつかないので先にデータベースを起動する。ß
+
 このような画面になればOK
  ![docker2](https://github.com/user-attachments/assets/f28eb80b-434b-4c22-ade7-35ca0645fdcc)
 
